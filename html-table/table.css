@@ -1,18 +1,21 @@
-table,th,td {
-    border: 2px solid rgb(90, 23, 23);
-   /* border-collapse: collapse;*/
-   border-radius: 5px;
-    
+ table,th,td{
+    border: 2px solid red;
+    /* border-collapse: collapse; if this is used then border-radius can not be applicable  */
+    border-radius: 5px;
 }
-th,td{
-    padding: 20px, 30px; /*cell padding*/
+th,td {
+    padding: 20px 30px; /*cell padding*/
+    text-align: center;
 }
-table {
-    width: 100%
+
+table{
+    width: 100%;
 }
+
 .my-id{
     width: 10%;
 }
-.my name{
+
+.my-id{
     width: 60%;
 }
