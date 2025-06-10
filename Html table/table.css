@@ -1,0 +1,18 @@
+table,th,td {
+    border: 2px solid rgb(90, 23, 23);
+   /* border-collapse: collapse;*/
+   border-radius: 5px;
+    
+}
+th,td{
+    padding: 20px, 30px; /*cell padding*/
+}
+table {
+    /* width: 100% */
+}
+.my-id{
+    width: 10%;
+}
+.my name{
+    width: 60%;
+}
