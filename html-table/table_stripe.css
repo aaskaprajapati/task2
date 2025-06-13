@@ -1,0 +1,43 @@
+#animal-table{
+
+  width: 100%;
+  text-align: left;
+}
+/* descendent selector:select all the tr tags inside the animal-table */
+#animal-table tr {
+  height: 40px;
+  border-bottom: 1px solid #ddd;
+}
+table,th,td{
+    border: 2px solid rgb(26, 1, 17);
+    /* border-collapse: collapse; if this is used then border-radius can not be applicable  */
+    border-radius: 4px;
+}
+#animal-table tr {
+    height: 40px;
+    border-bottom: 1px solid #18a3cd;
+}
+/*pseudo class nth-child : select the element on the basis of argument provided */
+#animal-table tr:nth-child(odd) {
+    background-color: #1669a9;
+    color: #18a3cd;
+}
+#animal-table tr:hover {
+    background-color: #18a3cd;
+    color: black;
+    cursor: pointer;
+}
+
+#animal-table th:nth-child(3),
+#animal-table th:nth-child(5),
+#animal-table td:nth-child(3),
+#animal-table td:nth-child(5) {
+    font-style: italic;
+    color: yellow;
+    font-size: 30px;
+}
+#animal-table tr:hover {
+    background-color: #18a3cd;
+    color: white;
+    cursor: pointer;
+}
